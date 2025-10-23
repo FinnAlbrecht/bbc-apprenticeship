@@ -1,5 +1,17 @@
 # BBC Apprenticeship Projects
 
+![GitHub last commit](https://img.shields.io/github/last-commit/FinnAlbrecht/bbc-apprenticeship)
+![GitHub repo size](https://img.shields.io/github/repo-size/FinnAlbrecht/bbc-apprenticeship)
+![GitHub top language](https://img.shields.io/github/languages/top/FinnAlbrecht/bbc-apprenticeship)
+![GitHub language count](https://img.shields.io/github/languages/count/FinnAlbrecht/bbc-apprenticeship)
+![GitHub branch check runs](https://img.shields.io/github/check-runs/FinnAlbrecht/bbc-apprenticeship/main)
+![GitHub contributors](https://img.shields.io/github/contributors/FinnAlbrecht/bbc-apprenticeship)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/FinnAlbrecht/bbc-apprenticeship)
+![GitHub repo stars](https://img.shields.io/github/stars/FinnAlbrecht/bbc-apprenticeship?style=social)
+![GitHub forks](https://img.shields.io/github/forks/FinnAlbrecht/bbc-apprenticeship?style=social)
+
+---
+
 This repository contains various projects, exercises, and code snippets developed during my vocational training at **BBC (Berufsbildungscenter)**, 2023–2024.
 
 During this time, I gained experience in a wide range of topics, including:
