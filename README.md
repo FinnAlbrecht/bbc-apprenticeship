@@ -55,3 +55,64 @@ Please note that the projects in this repository were **pushed to GitHub retrosp
 The original development and commit history were maintained on a **private internal BBC Git instance** during the apprenticeship.
 
 This public repository serves as a curated overview and portfolio of the work completed during that time.
+
+## Submodule Setup: Schritt-für-Schritt-Anleitung
+
+### Erstmalige Initialisierung von Submodules
+
+1. **Submodules initialisieren und herunterladen**
+```bash
+   git submodule init
+   git submodule update
+```
+   
+   Oder als Kurzform:
+```bash
+   git submodule update --init --recursive
+```
+
+2. **Branch-Tracking für ein Submodule konfigurieren**
+   
+   Damit dein Submodule automatisch einem bestimmten Branch folgt (z.B. `main`):
+```bash
+   git config -f .gitmodules submodule.placeholder.branch main
+   git add .gitmodules
+   git commit -m "Configure submodule to track main branch"
+   git push
+```
+
+### Submodule auf den neuesten Stand bringen
+
+Wenn du die neuesten Änderungen aus dem Submodule-Repository holen möchtest:
+```bash
+# 1. Submodule auf neuesten Stand des konfigurierten Branches aktualisieren
+git submodule update --remote placeholder
+
+# 2. Änderungen im Hauptrepository registrieren
+git add placeholder
+
+# 3. Commit mit aussagekräftiger Nachricht erstellen
+git commit -m "Update submodule placeholder to latest main"
+
+# 4. Änderungen pushen
+git push
+```
+
+### Repository mit Submodules klonen
+
+Wenn jemand das Repository neu klont:
+```bash
+# Option 1: Alles in einem Schritt
+git clone --recurse-submodules <repository-url>
+
+# Option 2: Nach normalem Clone
+git clone <repository-url>
+cd <repository-name>
+git submodule update --init --recursive
+```
+
+### Häufige Befehle
+
+- **Status aller Submodules prüfen**: `git submodule status`
+- **Alle Submodules aktualisieren**: `git submodule update --remote --recursive`
+- **In ein Submodule wechseln**: `cd vacationAssignment` (dort kannst du normal mit Git arbeiten)
