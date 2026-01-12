@@ -1,4 +1,4 @@
 [submodule "vacationAssignment"]
-	path = vacationAssignment
-	url = https://github.com/FinnAlbrecht/bbc-apprenticeship
-	branch = main
+  path = vacationAssignment
+  url = https://github.com/FinnAlbrecht/vacationAssignment
+  branch = main
